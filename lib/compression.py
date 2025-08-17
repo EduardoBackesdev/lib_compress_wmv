@@ -1,4 +1,5 @@
 from pathlib import Path
+import os
 
 class compression:
     
@@ -8,4 +9,7 @@ class compression:
     def compress(self):
         if not self.c.exists():
             return 0
+        
+        file_binarie = open(self.c, 'rb')
+        
         
