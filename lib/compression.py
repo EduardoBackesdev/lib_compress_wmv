@@ -4,7 +4,7 @@ import os
 class compression:
     
     def __init__(self):
-        self.c = Path("./temp/copy.mp3")
+        self.c = Path("./temp/copy.wav")
     
     def compress(self):
         if not self.c.exists():

@@ -5,7 +5,7 @@ class upload_file:
     
     def upload(self, a:str):
         
-        if not a.lower().endswith(".wmv"):
+        if not a.lower().endswith(".wav"):
             return 0
         
         if not os.path.isfile(a):
